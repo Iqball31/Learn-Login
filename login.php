@@ -10,7 +10,7 @@ $validPassword = 'password';
 
 if ($username === $validUsername && $password === $validPassword) {
     $_SESSION['loggedin'] = true;
-    header('Location: admin.php');
+    header('Location: dashboard.php');
 } else {
     echo 'Invalid credentials';
 }
